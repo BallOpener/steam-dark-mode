@@ -1,5 +1,11 @@
 # Steam Dark Mode
 
+### This version is based on Shiina's beta version of the Dark Mode (or rather an extension of it).
+
+Currently in the works.
+
+---
+
 Use the Steam Dark Mode Tool to update and install the Dark Mode for Steam.
 This Tool can also update all the files to the latest version!
 
