@@ -1,0 +1,24 @@
+{
+  "name": "start",
+  "version": "0.0.1",
+  "description": "Dark mode for Steam",
+  "scripts": {
+    "start": "sass src/build.scss css/webkit.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BallOpener/steam-dark-mode.git#beta"
+  },
+  "author": "Shiina",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BallOpener/steam-dark-mode/issues"
+  },
+  "homepage": "https://github.com/BallOpener/steam-dark-mode/tree/beta#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  },
+  "dependencies": {
+    "sass": "^1.49.9"
+  }
+}

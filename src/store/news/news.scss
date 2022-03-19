@@ -1,0 +1,135 @@
+@use './styles';
+
+/* -------------------------NEWS PAGE------------------------- */
+
+.eventcalendar_SidebarContainer_15YLD{
+    /* Left nav bar */
+    background: styles.$bgcolor !important;
+}
+
+.eventcalendar_EventCalendarContainer_1e3Wb .eventcalendar_RowContainer_3yqpP .eventcalendar_Rows_r3Dia .eventcalendar_PastSection_3FpvG.eventcalendar_DarkerBackground_1U2BW, .eventcalendar_EventCalendarContainer_1e3Wb .eventcalendar_RowContainer_3yqpP .eventcalendar_Rows_r3Dia .eventcalendar_PastSection_3FpvG, .eventcalendar_EventCalendarContainer_1e3Wb .eventcalendar_RowContainer_3yqpP .eventcalendar_Rows_r3Dia .eventcalendar_EndOfRows_1lK7p, .eventcalendar_EventCalendarContainer_1e3Wb .eventcalendar_RowContainer_3yqpP{
+    /* Background */
+    background: styles.$background !important;
+}
+
+.curatorfeedsuggestrow_FeedSuggestContainerBG_3ICp4{
+    /* Curator suggestion feed */
+    background-image: none !important;
+    background: styles.$background !important;
+    border-radius: 10px !important;
+}
+
+.curatorfeedsuggestrow_FeedSuggestContainer_1420T{
+    /* Background */
+    background-image: none !important;
+    background: styles.$bgcolor !important;
+    border-radius: 10px !important;
+}
+
+.eventcalendar_SidebarContainer_15YLD .eventcalendar_Sidebar_1nf0v .eventcalendar_SidebarTitle_3uZE-, .eventcalendar_NewsChannelGroup_3U5MY .eventcalendar_NewsChannelListTitle_3X16T, .eventcalendar_NewsChannelGroup_3U5MY .eventcalendar_NewsChannel_1n4vp.eventcalendar_NewsChannelOnPage_kJoC7 .eventcalendar_NewsChannelTitle_11O61, .eventcalendar_NewsChannelGroup_3U5MY .eventcalendar_NewsChannel_1n4vp.eventcalendar_NewsChannelOnPage_kJoC7 .eventcalendar_NewsChannelSubtitle_3_CIM, .eventcalendar_SidePanelGameSearch_1LTVI .DialogLabel, .eventcalendar_NewsChannelGroup_3U5MY .eventcalendar_NewsChannelListTitle_3X16T, .eventcalendar_NewsChannelGroup_3U5MY .eventcalendar_NewsChannel_1n4vp .eventcalendar_NewsChannelTitle_11O61, .eventcalendartile_GameTitleContainer_WHJ_W .eventcalendartile_TileTextAppName_71phF, .eventcalendartile_TileContainer_1E3An .eventcalendartile_GameSource_vfv1Q .eventcalendartile_SourceList_3BIx7 .eventcalendartile_Source_2lYFq, .eventcalendar_NewsChannelGroup_3U5MY .eventcalendar_NewsChannel_1n4vp .eventcalendar_NewsChannelSubtitle_3_CIM{
+    /* Change colour of text to white*/
+    color: styles.$text !important;
+}
+
+.eventcalendar_NewsChannelGroup_3U5MY .eventcalendar_NewsChannel_1n4vp.eventcalendar_NewsChannelOnPage_kJoC7{
+    /* Left nav hover colour */
+    background: styles.$customcolor !important;
+}
+
+.curatorfeedbrowse_CuratorInfoIcon_3Y0jF .curatorfeedbrowse_CuratorInfoActionCtn_2y3rS .curatorfeedbrowse_CuratorInfoFollow_1I_eQ, .curatorfeedsuggestrow_BrowseMore_2nWAP, .eventcalendar_SidebarContainer_15YLD .eventcalendar_Sidebar_1nf0v .eventcalendar_FilterLink_1zyVy {
+    /* Buttons */
+    border-radius: 10px !important;
+    background: styles.$header !important;
+    color: styles.$text !important;
+}
+.eventcalendar_NewsChannelGroup_3U5MY .eventcalendar_NewsChannel_1n4vp{
+    /* Left nav buttons */
+    background: styles.$bgcolor !important;
+    border-radius: 10px !important;
+    color: styles.$text !important;
+
+    &:hover{
+        background: styles.$customcolor !important;
+        border-radius: 10px !important;
+        color: styles.$text !important;
+    }
+
+}
+
+.eventcalendartile_TileContainer_1E3An .eventcalendartile_Tile_3xvUZ .eventcalendartile_MainContentContainer_2pq2v, .eventcalendar_EventCalendarContainer_1e3Wb .eventcalendar_RowContainer_3yqpP .eventcalendar_Rows_r3Dia .eventcalendar_BackToThePast_18uWs:hover, .eventcalendar_EventCalendarContainer_1e3Wb .eventcalendar_RowContainer_3yqpP .eventcalendar_Rows_r3Dia .eventcalendar_MobileSeeAllink_3yeVN:hover{
+/* Items */
+    background: styles.$bgcolor !important;
+    border-radius: 10px !important;
+}
+
+.eventcalendartile_TileContainer_1E3An .eventcalendartile_Tile_3xvUZ{
+    /* Remove extra background */
+    background: none !important;
+}
+
+.DialogTextInputBase, ._DialogInputContainer{
+    /* Search box */
+    background-color: #1e1e1f !important;
+    border-radius: 20px !important;
+    border: 1px solid #1e1e1f !important;
+  
+    &:hover {
+        border: 1px solid #1e1e1f !important;
+  }
+}
+
+.eventcalendarcollectionheaders_SimpleTitleHeaderCtn_3VhPz.eventcalendarcollectionheaders_LargeHeader_1Y7af{
+    /* News curator header */
+    background: styles.$header !important;
+}
+
+.eventcalendar_EventCalendarContainer_1e3Wb .eventcalendar_RowContainer_3yqpP .eventcalendar_Rows_r3Dia .eventcalendar_CalendarEventListRow_3m6GW .eventcalendar_CalendarEventListContainer_3Qenz{
+    /* Background */
+    background: styles.$bgcolor !important;
+}
+
+.storesuggest_SuggestContainer_2gBFq .storesuggest_Results_3eXNg .storesuggest_ResultSectionHeader_1KK1s{
+    /* Search header */
+    background: styles.$header !important;
+}
+
+.storesuggest_SuggestContainer_2gBFq .storesuggest_Results_3eXNg{
+    /* Search results*/
+    background-color: #1e1e1f !important;
+}
+
+.storesuggest_SuggestContainer_2gBFq .storesuggest_Results_3eXNg .storesuggest_ResultRow_16oSf:hover{
+    /* Hover search */
+    background: styles.$bgcolor !important;
+    color: styles.$text !important;
+}
+
+.eventreminder_ReminderCheckBox_vPo2j.eventreminder_TextMode_553rC, .eventreminder_ReminderCheckBox_vPo2j.eventreminder_IconMode_1YjsR:hover, .eventreminder_ReminderDialog_3YUEY .eventreminder_ReminderCheckBox_vPo2j, .eventreminder_ReminderCheckBox_vPo2j.eventreminder_TextMode_553rC, .eventreminder_ReminderCheckBox_vPo2j.eventreminder_IconMode_1YjsR:hover, .eventreminder_ReminderDialog_3YUEY .eventreminder_ReminderCheckBox_vPo2j{
+    /* Reminder buttons */
+    background: styles.$customcolor !important;
+    color: styles.$text !important;
+}
+
+.eventreminder_ReminderBackground_TNf9_{
+    background-color: #1e1e1f !important;
+    
+}
+
+.apppartnereventspage_PartnerEvent_1KsYS, .apppartnereventspage_PartnerEvent_1KsYS{
+    background-image: none !important;
+    border-radius: 10px !important;
+    background: styles.$bgcolor !important;
+}
+
+.partnereventshared_Button_1ABCO.partnereventshared_Icon_1dDpS, .apppartnereventspage_CloseButton_1_vCR{
+    background: styles.$header !important;
+    border-radius: 20px !important;
+}
+
+.apppartnereventspage_ScrollButton_1t_97{
+    background: styles.$header !important;
+}
+
+.discussionwidget_VoteContainer_3Kelh, .discussionwidget_ShareContainer_3ctGq, .discussionwidget_DiscussContainer_16xC0, .discussionwidget_VoteContainer_3Kelh, .discussionwidget_ShareContainer_3ctGq, .discussionwidget_DiscussContainer_16xC0{
+    background-color: none !important;
+}

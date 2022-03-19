@@ -1,0 +1,170 @@
+@use './styles';
+
+/* -------------------------GAME PAGE------------------------- */
+
+.slider, .game_area_play_stats, .game_area_purchase_game_wrapper .game_area_purchase_game, .game_area_purchase_game_wrapper .game_area_purchase_game, .block_responsive_horizontal_scroll.block_content a.small_cap, .rightcol.game_meta_data .block, .queue_ctn .queue_actions_ctn, .broadcast_embeddable_bordered_container_3zXpF, .no_curators_followed, .review_box, .short_header, .deckverified_BannerContentDesktop_Cek1s, .package_totals_area, .game_area_purchase_game, .game_area_offsite_purchase, #package_header_container{
+    /* Backgrounds of items */
+    background: styles.$bgcolor !important;
+    border-radius: 10px !important;
+}
+  
+.glance_ctn{
+    /* Left top box - short info*/
+    background: styles.$bgcolor !important;
+    border-radius: 10px !important;
+}
+
+.game_description_snippet, .glance_ctn_responsive_left, .glance_tags_label{
+    /* Shift contrainers to left*/
+    margin-left: 10px !important;
+}
+
+.glance_tags{
+    /* Shift tags to the left */
+    margin-left: 10px !important;
+}
+
+.app_tag{
+    /* Genre tags */
+    background: styles.$header !important;
+    border-radius: 10px !important;
+    color: styles.$text !important;
+
+    &:hover{
+        background-color: styles.$scrollbar !important;
+        border-radius: 10px !important;
+    }
+}
+
+.game_area_dlc_row.even, .game_area_dlc_row.odd{
+    /* DLC area */
+    background: styles.$bgcolor !important;
+    border-radius: 10px !important;
+    &:hover{
+    /* Scrollbar hover*/
+        background-color: styles.$scrollbar !important;
+}
+}
+
+.rightcol.game_meta_data .block.heading{
+    /* Discovery queue banner*/
+    border-radius: 10px !important;
+    margin-bottom: 1px !important;
+}
+
+#game_highlights, .queue_ctn, .slider_ctn.store_autoslider, .review_box.partial .content .gradient, #review_histograms_container.collapsed .review_histogram_section .user_reviews_summary_bar{
+    /* Remove background */ 
+    background: none !important;
+    color: styles.$text !important;
+}
+
+.btnv6_blue_hoverfade, .game_area_details_specs_ctn .label, .queue_btn_menu > .queue_menu_arrow, .block a.linkbar, .communitylink_achievement.communitylink_achivement_plusmore, .glance_ctn .more_btn, .game_description_column .block .block_header .right a {
+    /* Main buttons*/
+    background: styles.$header !important;
+    border-radius: 10px !important;
+    color: styles.$text !important;
+
+    &:hover{
+        background-color: styles.$scrollbar !important;
+        border-radius: 10px !important;
+        color: styles.$text !important;
+    }
+    
+}
+
+#review_histogram_rollup_section.hidden .user_reviews_summary_bar, .user_reviews_filter_options, #review_histograms_container .review_histogram_section .user_reviews_summary_bar, #review_histogram_recent_section, #review_histograms_container {
+    /* Review headers */
+    background: styles.$bgcolor !important;
+    border-radius: 10px !important;
+}
+
+.user_reviews_filter_menu_flyout:hover, .user_reviews_filter_menu:hover .user_reviews_filter_menu_flyout, .user_reviews_filter_menu_flyout:hover{
+    background: styles.$bgcolor !important;
+}
+
+.user_reviews_filter_menu:hover{
+    background-color: styles.$scrollbar !important;
+    border-radius: 10px !important;
+    color: styles.$text !important;
+}
+
+div.early_access_header .heading {
+    /* Early access heading */
+    border-radius: 10px !important;
+}
+
+.discussion_button_ctn, .readmore_button_ctn, .discussion_button_ctn>span, .readmore_button_ctn>span{
+    /* Remove background on buttons */
+    background: none !important;
+    color: styles.$text !important;
+}
+
+.deckverified_LearnMorePC_CrSPf, .deckverified_LearnMore_2gXzK{
+    /*Steam Deck button */
+    background-color: styles.$scrollbar !important;
+    border-radius: 10px !important;
+}
+
+a.btnv6_blue_hoverfade.btn_medium, div.btnv6_blue_hoverfade.btn_medium.queue_btn_inactive, .queue_control_button.queue_btn_follow, div.btnv6_blue_hoverfade.btn_medium.queue_btn_active, div.btnv6_blue_hoverfade.btn_medium.queue_btn_inactive, .game_page_autocollapse_readmore, .user_reviews_filter_menu .title, .user_reviews_filter_display_as, .user_reviews_summary_bar .summary_section{
+    /* Change text to white */
+    color: styles.$text !important;
+}
+
+.slider_ctn .handle{
+    /* Scrollbar store page */
+    background-color: styles.$scrollbar !important;
+    border-radius: 10px !important;
+
+    &:hover{
+        background-color: styles.$scrollbar !important;
+        border-radius: 10px !important;
+    }
+}
+a.btnv6_blue_hoverfade.btn_small_thin, div.btnv6_blue_hoverfade.btn_small_thin{
+    /* Curator review buttons banner */
+    background: none !important;
+    background-color: styles.$scrollbar !important;
+    color: styles.$text !important;
+}
+
+
+.slider_ctn .slider_left:hover, .slider_ctn .slider_right:hover, .slider .handle:hover{
+    /* Scrollbar */
+    background: styles.$scrollbar !important;
+}
+
+#review_create .input_box {
+    /* Review box */
+    background: styles.$header !important;
+}
+
+.slider_ctn .slider_left, .slider_ctn .slider_right{
+    /* Scrollbar */ 
+    background: styles.$bgcolor !important;
+    border-radius: 10px !important;
+}
+
+.review_box.short .shortcol, .review_box.short{
+    /* Review box small right */
+    background: #181819 !important;
+    color: styles.$text !important;
+    border-radius: 10px !important;
+}
+.queue_controls_description{
+    /* Shift box down*/
+    margin-top: 5px !important;
+    border-radius: 10px !important;
+}
+
+.referring_curator{
+    /* Background */
+    background: styles.$bgcolor !important;
+    border-radius: 10px !important;
+}
+
+div.responsive_apppage_reviewblock.block:nth-of-type(14){
+    /* Remove empty container block review */
+    display: none !important;
+}
+
+

@@ -1,0 +1,136 @@
+@use './styles';
+
+/* -------------------------POINTS SHOP------------------------- */
+
+.globals_ShellHeader_3M7bf{
+    /* Header of Point Shop */
+    background: styles.$header !important;
+}
+
+.styles_PageHomeTopTitle_3DDgg, .styles_PageHomeTopSubTitle_rSOht, .index_HeaderText_1xjPB, .index_SubHeaderText_1RhQx, .page_PageTitle_2g7YP, .page_PageSubtitle_1j9rP, .index_ShellHeaderBrandName_lU9dG{
+    /* Main headings colours */
+    background: none !important;
+    text-shadow: none !important;
+    -webkit-text-fill-color: styles.$text !important;
+}
+
+
+.styles_PageHomeHowItWorks_2bWxo{
+    /* Points info box */
+    color: styles.$text !important;
+    background-image: none !important;
+
+    &:hover{
+        color: styles.$text !important;
+        background: none styles.$customcolor !important;
+    }
+}
+
+.globals_ShellHeaderBrandName_MS1bp, .loyaltyprimarynav_NavItem_BVtL0, .loyaltyprimarynav_Label_2Cstp, .globals_Shell_Q9io3 a {
+    /* Change text colour */
+    color: styles.$text !important;
+    opacity: 1 !important;
+}
+
+.globals_ShellHeader_3M7bf .globals_AppFilterContainer_3G7_B .globals_AppFilterLabel_IXSgc, .rewarditemsection_SectionSubtitle_1Cqzt, .appfilterpopup_ManageAppFiltersPopup_15xPy .appfilterpopup_SuggestedAppFilter_1ULrZ .appfilterpopup_SuggestedAppFilterName_3GUKE .globals_AppFilterLabel_IXSgc, .index_FaqAnswer_2zL7n, .index_FaqTitle_16G14, .index_FaqQuestion_g7OCN, .index_SectionSubtitle_3OwkA, .index_SectionSubtitle_3OwkA, .rewarditemsection_SectionTitle_1U-QF, .rewarditem_Subtitle_2FQCU, .herogroup_Title_y7h7u, .rewarditem_Name_EccZY, .rewarditem_Subtitle_2FQCU {
+    /* Box tex colours*/
+    color: styles.$text !important;
+}
+
+.itembox_ItemBox_2EUBP{
+    /* Item box*/
+    background: styles.$bgcolor !important;
+    backdrop-filter: none !important;
+    border-radius: 10px !important;
+}
+
+.fadedbackground_BackgroundFadeImage_3YNnW, .profilebundle_ProfileBundleContainer_1ydA_{
+    /* Fix borders of other items in game profiles */
+    border-radius: 10px !important;
+}
+
+.banner_Banner_ECzA2{
+    /* Banner top*/
+    border-radius: 10px !important;
+    background: styles.$bgcolor !important;
+}
+
+.itembox_ItemBox_2EUBP .itembox_Body_1mnC4, .bundle_ItemCard_1zIyr{
+    /* Remove background gradient  */
+    background: none !important;
+}
+
+.rewarditem_ItemContainer_skI5t .rewarditem_Item_CcuoO:hover{
+    /* Remove odd filter*/
+    filter: none !important;
+}
+
+.bundle_BundleContainer_2p-sr{
+    /* Bundle backgrounds*/
+    background: styles.$bgcolor !important;
+}
+
+.bundle_BundleFooter_zpf5C{
+    background: styles.$bgcolor !important;
+}
+
+.profilebundle_ProfileBundleFooter_2uRyM, .appfilterpopup_ManageAppFiltersPopup_15xPy{
+    background: styles.$bgcolor !important;
+}
+
+.index_ConvertionSectionTextContainer_xaO4v, .index_AwardBadgeContainer_2SDnX{
+    background: styles.$bgcolor !important;
+}
+
+.banner_Banner_ECzA2 .banner_Link_185F6, .rewarditemsection_ActionButton_2c38-, .rewarditemsection_SectionCallout_2tQyo{
+    /* Banner in game profiles */
+    border-radius: 10px !important;
+    background: styles.$header !important;
+    color: styles.$text !important;
+}
+
+.loyaltyprimarynav_NavItem_BVtL0:hover, .loyaltyprimarynav_Label_2Cstp:hover{
+    /* Hover text colours */
+    color: styles.$text !important;
+    opacity: 1 !important;
+}
+
+
+.loyaltyprimarynav_SecondaryNavItem_2mFH5 {
+    /* Left nav hover */
+    background-image: none !important;
+    border-radius: 20px !important;
+    background-position: none !important;
+    background-size: none !important;
+    transition-property: none !important;
+    transition-duration: none !important;
+    transition-timing-function: none !important;
+
+    &:hover{
+        background-image: none !important;
+        background: none styles.$customcolor !important;
+        border-radius: 20px !important;
+        background-position: none !important;
+        background-size: none !important;
+        transition-property: none !important;
+        transition-duration: none !important;
+        transition-timing-function: none !important;
+    }
+}
+
+.fadedbackground_BackgroundFade_2MFEY{
+    /* Remove left nav fade background*/
+    background: none !important;
+}
+
+.page_StandardLayout_3RDAb,  .page_HomeBackground_1zw0I, .page_ParallaxBackground_1vgF7{
+    /* Change main background */ 
+    background: styles.$background !important;
+    -webkit-mask-image: none !important;
+}
+
+.loyaltyprimarynav_PrimaryNav_1B_k- {
+    /* Change side nav */
+    background: styles.$bgcolor !important;
+}
+
