@@ -4,6 +4,12 @@
 
 Currently in the works.
 
+### To Do
+- Community Hub
+- Redo Profile
+- Profile sections including activities
+- Fix performance issue (if any)
+
 ---
 
 Use the Steam Dark Mode Tool to update and install the Dark Mode for Steam.
