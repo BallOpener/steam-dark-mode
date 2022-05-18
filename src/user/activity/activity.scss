@@ -124,3 +124,30 @@ body.flat_page #footer {
     border-radius: 10px !important;
     background-color: #1e1e1f !important;
 }
+
+/*Submenus*/
+.gameListRow{
+    border-radius: 10px !important;
+    background: styles.$bgcolor !important;
+}
+
+.profile_small_header_texture, .rightSectionHolder{
+    background: styles.$bgcolor !important;
+    border-radius: 10px !important;
+}
+
+.pullup_item{
+    background-color: styles.$grey !important;
+    color: styles.$text !important;
+    border-radius: 10px !important;
+}
+
+.games_list_tabs_ctn{
+    background: styles.$bgcolor !important;
+}
+
+a.games_list_tab:hover, .games_list_tab.active{
+    background: styles.$txtcolor !important;
+    border-radius: 10px !important;
+}
+

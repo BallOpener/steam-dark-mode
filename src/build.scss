@@ -8,6 +8,11 @@
 @use 'user/profile/profile';
 @use 'store/news/news';
 @use 'community/groups/groups';
+@use 'community/home_community/home_community';
+@use 'community/game_home/game_home';
+@use 'community/discussions/discussions';
+@use 'community/workshop/workshop';
 @use 'ui_elements/avatars/user_avatars';
 @use 'ui_elements/avatars/group_avatars';
 @use 'ui_elements/images/images';
+@use 'user/inventory/inventory';

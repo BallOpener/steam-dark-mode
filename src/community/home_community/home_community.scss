@@ -1,0 +1,277 @@
+@use './styles';
+
+/* -------------------------HOME COMMUINITY------------------------- */
+
+.community_home_app_shortcuts.responsive_hidden, .community_home_search_box{
+    /* Search Box*/
+    background: styles.$bgcolor !important;
+    border-radius: 10px !important;
+}
+
+.community_home_search_apps_image, .community_home_search_players_image{
+    background: none !important;
+}
+
+input.community_home_search_app_input, input.community_home_search_players_input{
+    background-color: #1e1e1f !important;
+}
+
+.searchAppName input::placeholder, .SearchPlayers input::placeholder{
+    background-color: styles.$scrollbar !important
+}
+
+.apphub_Card{
+    /* Background */
+    background: styles.$bgcolor !important;
+    border-radius: 10px !important;
+}
+
+.apphub_CardContentMain .UserReviewCardContent_Footer .gradient{
+    background: none !important;
+}
+
+.apphub_CardContentGuideTitle{
+    background: styles.$header !important;
+    border-radius: 10px !important;
+}
+
+.community_home_search_apps, .community_home_search_players{
+    /* Searchbox Hover */
+    background-color: #1e1e1f !important;
+    border-radius: 20px !important;
+    border: 1px solid #1e1e1f !important;
+    
+    &:hover {
+      border: 1px solid #1e1e1f !important;
+    }
+  }
+
+.apphub_sectionTab.active > span, .apphub_responsive_tab .responsive_tab_control .responsive_tab_control_inner {
+    background-color: styles.$txtcolor !important
+}
+
+.apphub_sectionTab.active{
+    background: none !important;
+}
+
+.apphub_sectionTab:hover{
+    background: styles.$txtcolor !important;
+}
+
+.btn_grey_grey_outer_bevel, .btn_grey_grey_outer_bevel > span{
+    background: styles.$header !important;
+    border-radius: 10px !important;
+
+    &:hover {
+        background: styles.$txtcolor !important;
+      }
+}
+
+.btn_darkblue_white_innerfade, .btn_darkblue_white_innerfade > span{
+    background: styles.$txtcolor !important;
+    border-radius: 10px !important;
+    color: styles.$text !important;
+}
+
+.apphub_Card.interactable:hover .apphub_CardContentAuthorBlock, .apphub_Card.interactable:hover .apphub_CardContentType, .apphub_Card.interactable:hover .apphub_CardContentDiscussionType{
+    border-radius: 10px !important;
+}
+
+.apphub_sectionTabsHR, .apphub_sectionTabsHR.responsive_hidden, .apphub_HubDivider{
+    background-color: none !important;
+    height: 0 !important;
+}
+
+/* -------------------------Community - Dicussions------------------------- */
+
+.forum_topic{
+    background-color: styles.$bgcolor !important;
+    border-radius: 10px !important;
+
+    &:hover{
+        background: styles.$txtcolor !important;
+        border-radius: 10px !important;
+    }
+}
+
+.forum_topic_tooltip{
+    background-color: styles.$bgcolor !important;
+    border-radius: 10px !important;
+}
+
+.rightbox{
+    background-color: styles.$bgcolor !important;
+    border-radius: 10px !important;
+}
+
+.btn_grey_black{
+    background: styles.$header !important;
+    border-radius: 10px !important;
+    color: styles.$text !important;
+
+    &:hover{
+        background-color: styles.$scrollbar !important;
+        border-radius: 10px !important;
+        color: styles.$text !important;
+    }
+}
+
+.btn_grey_white_innerfade, .btn_grey_white_innerfade > span{
+    background: styles.$header !important;
+    border-radius: 10px !important;
+    color: styles.$text !important;
+
+    &:hover{
+        background-color: styles.$scrollbar !important;
+        border-radius: 10px !important;
+        color: styles.$text !important;
+}
+}
+
+.input.btn_medium{
+    background: none !important;
+}
+
+
+.rightbox_list_selection_background{
+    background-color: styles.$scrollbar !important;
+    left: -14px !important;
+    width: 295px !important;
+    border-radius: 10px !important;
+    background-image: none !important;
+}
+
+
+.forumtopic_comments .commentthread_comment, .forum_op, .apphub_SectionFilter{
+    background-color: styles.$bgcolor !important;
+    border-radius: 10px !important;
+    background-image: none !important;
+}
+
+.filterselect, .filterselect_options{
+    background: styles.$header !important;
+    border-radius: 10px !important;
+}
+
+.discussionSearchTextContainer{
+    background-image: none !important;
+}
+.discussionSearchTextContainer{
+    border-radius: 20px !important;
+    background-color: styles.$bgcolor !important;
+    height: 28px !important
+}
+
+input.discussionSearchText{
+    position: static !important;
+    padding: 4px !important;
+}
+
+.discussionSearchTextSubmitImg{
+    top: 5px !important;
+}
+
+/* -------------------------Community - Guides------------------------- */
+.searchTextContainer{
+    background-image:none!important;
+}
+
+.apphub_Guides .subtitle_ctn{
+    background: styles.$bgcolor !important;
+    border-radius: 10px !important;
+}
+
+.searchTextContainer{
+    background-color: styles.$bgcolor !important;
+    border-radius: 20px !important;
+    border: 1px solid styles.$bgcolor !important;
+    height: 28px !important;
+    
+    &:hover {
+      border: 1px solid styles.$bgcolor !important;
+    }
+}
+
+.searchTextSubmitImg{
+    top: 5px !important;
+}
+
+[class="searchText defaultText"]{
+    color: styles.$scrollbar !important;
+    top: 5px !important
+}
+
+[id="appHubsSearchText"]{
+    top: 5px !important
+}
+
+.apphub_Guides{
+    background-color: styles.$bgcolor !important;
+    border-radius: 10px !important;
+}
+
+#ig_bottom{
+    background: none !important;
+}
+
+#ig_bottom .sidebar .panel, #ig_bottom .sidebar .detailPanel{
+    margin-top: 20px !important;
+    background-color: styles.$bgcolor !important;
+    border-radius: 10px !important;
+}
+
+
+.browseOptionImage{
+/* Changes colour of buttons on left sidebar in guides*/
+    background-color: styles.$scrollbar !important;
+    border-radius: 10px !important;
+    width: 294px !important;
+    left: -10px !important;
+}
+
+.browseOption.notSelected:hover, .browseOption.notSelected.gpfocus{
+    background-color: styles.$scrollbar !important;
+    border-radius: 10px !important;
+}
+
+.browseOption.notSelected:hover a, .browseOption.notSelected.gpfocus a{
+    color: styles.$text !important;
+}
+
+.detailBox{
+    background: none !important;
+}
+
+.guide_home_category_selection{
+    background: styles.$bgcolor !important;
+    border-radius: 10px !important;
+}
+
+.apphub_ContentGuides .workshopItemCollection{
+    background: styles.$bgcolor !important;
+    border-radius: 10px !important;
+}
+
+.hover_arrow_inner{
+    background: none !important;
+}
+
+.hover_box{
+    background: styles.$bgcolor !important;
+    border-radius: 10px !important;
+}
+
+.commentthread_area .commentthread_header{
+    background-color: none !important;
+}
+
+.guideTop, .guideTop .workshopItemControls{
+    background: styles.$bgcolor !important;
+    border-radius: 10px !important;
+}
+
+.review_award, .workshopItemControls .general_btn{
+    background-color: styles.$grey !important;
+    color: styles.$text !important;
+}
+

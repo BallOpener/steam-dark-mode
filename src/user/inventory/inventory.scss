@@ -1,0 +1,8 @@
+@use './styles';
+
+.right_controls_large_block_active_bg{
+    background: none !important;
+    background-color: styles.$scrollbar !important;
+    border-radius: 10px !important;
+    left: -10px !important;
+}

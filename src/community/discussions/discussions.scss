@@ -1,0 +1,26 @@
+@use './styles';
+
+/* -------------------------COMMUINITY - DISCUSSIONS------------------------- */
+
+.group_tab.active, .group_tab.active > span, a.group_tab:hover{
+    background: styles.$txtcolor !important
+}
+
+.group_content.bottomless{
+    background: none !important;
+}
+
+.discussions_forum_row, a.recent_game_discussion, .forum_list_ctn .forum_list_right, .discussions_game_header, .discussions_game_footer{
+    background-color: styles.$bgcolor !important;
+    border-radius: 10px !important;
+    color: styles.$text !important;
+}
+
+a.recent_game_discussion:hover, .discussions_forum_row:hover{
+    background-color: styles.$scrollbar !important;
+    border-radius: 10px !important;
+}
+
+.recent_game_discussion_count{
+    color: none !important;
+}

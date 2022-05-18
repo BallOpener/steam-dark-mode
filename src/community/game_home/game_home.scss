@@ -1,0 +1,11 @@
+@use './styles';
+
+/* -------------------------COMMUNITY - GAME------------------------- */
+
+.apphub_background{
+    background: styles.$background !important;
+}
+
+.apphub_StoreInfoHeader, .apphub_HeaderBottom{
+    background: styles.$bgcolor !important;
+}

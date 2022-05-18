@@ -1,0 +1,75 @@
+@use './styles';
+
+/* -------------------------HOME COMMUINITY------------------------- */
+
+.sectionTab.active > span, .sectionTab:hover, .sectionTab.active{
+    background: styles.$txtcolor !important
+}
+
+.browseAppsTitleContainer{
+    border-radius: 10px !important;
+}
+.workshopAppsSort .browseOptionImage{
+    width: 190px !important;
+}
+
+.responsive_tab_baseline{
+    background-color: none !important;
+}
+
+.searchApps{
+    background-image: none !important;
+}
+
+.searchApps{
+    border-radius: 20px !important;
+    background-color: styles.$bgcolor !important;
+}
+
+.browseApps{
+    background-color: styles.$bgcolor !important;
+    border-radius: 10px !important;
+}
+
+.home_tab.active, .home_tab .tab_content:hover{
+    background: styles.$txtcolor !important
+}
+
+#tabs_baseline{
+    width: 0 !important;
+}
+
+.slider .handle{
+    background: styles.$txtcolor !important
+}
+
+.primary_panel, .right_column .panel, .workshop_item_row, .workshopItemCollection, .itemContents, .collectionItem, .workshopItemSubscription, .workshopItemCollectionContainer{
+    border-radius: 10px !important;
+    background: styles.$bgcolor !important;
+}
+
+.workshopItemCollection:hover, .itemContents:hover{
+    background: styles.$txtcolor !important
+}
+
+.primary_panel_border{
+    background: none !important;
+}
+
+.workshop_item_row{
+    background: styles.$bgcolor !important;
+}
+
+.shadow_left, .shadow_right, .shadow_top, .shadow_bottom{
+    background-image: none !important;
+    background-repeat: none !important;
+}
+
+.browse_option a:hover{
+    background: styles.$txtcolor !important
+}
+
+.workshop_browse_search{
+    border-radius: 20px !important;
+    background-color: styles.$bgcolor !important;
+}
