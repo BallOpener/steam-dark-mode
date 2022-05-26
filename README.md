@@ -2,7 +2,7 @@
 
 ### This version is based on Shiina's beta version of the Dark Mode (or rather an extension of it).
 
-Currently in the works. Currently version 0.2
+Currently in the works. **Currently version 0.2**.
 
 ### To Do
 - Community Hub
@@ -11,10 +11,10 @@ Currently in the works. Currently version 0.2
 - Fix performance issue (if any)
 
 ### Download
-Go to [releases](https://github.com/BallOpener/steam-dark-mode/releases/)
+Go to [releases](https://github.com/BallOpener/steam-dark-mode/releases/).
 Download the file named 'webkit.css'.
 
 ### To install use my guide:
-[here](https://steamcommunity.com/sharedfiles/filedetails/?id=1941650801)
+Click [here](https://steamcommunity.com/sharedfiles/filedetails/?id=1941650801).
 Scroll down to the 'Dark Mode' section.
 
