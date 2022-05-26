@@ -18,3 +18,6 @@ Download the file named 'webkit.css'.
 Click [here](https://steamcommunity.com/sharedfiles/filedetails/?id=1941650801).
 Scroll down to the 'Dark Mode' section.
 
+### Screenshots
+![Imgur](https://imgur.com/kJ4TCrI.jpg)
+![Imgur](https://imgur.com/9VzGutz.jpg)
