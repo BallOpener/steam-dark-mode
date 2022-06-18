@@ -973,13 +973,6 @@ a.btnv6_blue_hoverfade.btn_medium, div.btnv6_blue_hoverfade.btn_medium.queue_btn
   border-radius: 10px !important;
 }
 
-a.btnv6_blue_hoverfade.btn_small_thin, div.btnv6_blue_hoverfade.btn_small_thin {
-  /* Curator review buttons banner */
-  background: none !important;
-  background-color: #0078d4 !important;
-  color: #ffffff !important;
-}
-
 .slider_ctn .slider_left:hover, .slider_ctn .slider_right:hover, .slider .handle:hover {
   /* Scrollbar */
   background: #0078d4 !important;
@@ -1152,11 +1145,10 @@ body.flat_page #footer {
   background: #121212 !important;
 }
 
-.profile_small_header_texture, .rightSectionHolder {
-  background: #121212 !important;
-  border-radius: 10px !important;
-}
-
+/*.profile_small_header_texture, .rightSectionHolder{
+    background: styles.$bgcolor !important;
+    border-radius: 10px !important;
+}*/
 .pullup_item {
   background-color: #2e2e2f !important;
   color: #ffffff !important;
@@ -1679,7 +1671,7 @@ img.member_tile {
   background-image: none !important;
 }
 
-/* -------------------------HOME COMMUINITY------------------------- */
+/* -------------------------COMMUINITY - HOME------------------------- */
 .community_home_app_shortcuts.responsive_hidden, .community_home_search_box {
   /* Search Box*/
   background: #121212 !important;
@@ -1749,16 +1741,39 @@ input.community_home_search_app_input, input.community_home_search_players_input
   color: #ffffff !important;
 }
 
-.apphub_Card.interactable:hover .apphub_CardContentAuthorBlock, .apphub_Card.interactable:hover .apphub_CardContentType, .apphub_Card.interactable:hover .apphub_CardContentDiscussionType {
-  border-radius: 10px !important;
-}
-
 .apphub_sectionTabsHR, .apphub_sectionTabsHR.responsive_hidden, .apphub_HubDivider {
   background-color: none !important;
   height: 0 !important;
 }
 
-/* -------------------------Community - Dicussions------------------------- */
+.apphub_Card.interactable:hover .apphub_CardContentAuthorBlock, .apphub_Card.interactable:hover .apphub_CardContentDiscussionType, .apphub_Card.interactable:hover .apphub_CardContentType {
+  background-color: #0078d4 !important;
+  border-radius: 10px !important;
+}
+
+.apphub_CardContentAppName, .apphub_CardContentAppName a, .apphub_Card.pinned .apphub_CardContentAuthorName, .apphub_CardContentAuthorName, .apphub_Card.interactable:hover .apphub_CardContentAuthorName.offline a, .apphub_CardContentAuthorName a, .apphub_Card.interactable:hover .apphub_CardContentMoreLink, .apphub_Card.interactable:hover .apphub_CardContentMoreLink a, .apphub_CardContentDiscussionType, .apphub_Card.interactable:hover .apphub_CardCommentCount.alignNews {
+  color: #ffffff !important;
+}
+
+.apphub_CardContentType {
+  background-image: none !important;
+}
+
+div.filterselect_options div.option:hover {
+  background-color: #0078d4 !important;
+  border-radius: 10px !important;
+}
+
+.btnv6_blue_hoverfade {
+  padding: 0 !important;
+  border-radius: 10px !important;
+}
+
+.btn_small_thin > span, input.btn_small_thin {
+  border-radius: 10px !important;
+}
+
+/* -------------------------COMMUNITY - DISCUSIONS------------------------- */
 .forum_topic {
   background-color: #121212 !important;
   border-radius: 10px !important;
@@ -1812,6 +1827,15 @@ input.community_home_search_app_input, input.community_home_search_players_input
   background-image: none !important;
 }
 
+.rightbox_list_option_content:hover {
+  background-color: #0078d4 !important;
+  border-radius: 10px !important;
+  width: 285px !important;
+  left: -15px !important;
+  position: relative !important;
+  padding-left: 10px !important;
+}
+
 .forumtopic_comments .commentthread_comment, .forum_op, .apphub_SectionFilter {
   background-color: #121212 !important;
   border-radius: 10px !important;
@@ -1842,7 +1866,16 @@ input.discussionSearchText {
   top: 5px !important;
 }
 
-/* -------------------------Community - Guides------------------------- */
+.community_tooltip {
+  background: #121212 !important;
+  color: #ffffff !important;
+}
+
+a.whiteLink:hover, .whiteLink:hover, a.linkStandard:hover, a.linkTitle:hover, a.underlinedLink:hover, span.underlinedLink:hover {
+  color: #ffffff !important;
+}
+
+/* -------------------------COMMUNITY - GUIDES------------------------- */
 .searchTextContainer {
   background-image: none !important;
 }
@@ -1885,22 +1918,41 @@ input.discussionSearchText {
 }
 
 #ig_bottom .sidebar .panel, #ig_bottom .sidebar .detailPanel {
-  margin-top: 20px !important;
+  /**margin-top: 20px !important;**/
   background-color: #121212 !important;
   border-radius: 10px !important;
+}
+
+.apphub_ContentGuides .workshopItemCollection {
+  color: #ffffff !important;
+}
+
+#GuideCategoryTags.panel.guide_category_tags {
+  margin-top: 20px !important;
 }
 
 .browseOptionImage {
   /* Changes colour of buttons on left sidebar in guides*/
   background-color: #0078d4 !important;
   border-radius: 10px !important;
-  width: 294px !important;
+  width: 292px !important;
   left: -10px !important;
+  height: 37px !important;
 }
 
-.browseOption.notSelected:hover, .browseOption.notSelected.gpfocus {
+.panel .rightDetailsBlock .browseOption.notSelected.myfavorites:hover {
+  width: 283px !important;
   background-color: #0078d4 !important;
   border-radius: 10px !important;
+  padding-left: 10px !important;
+}
+
+.rightSectionHolder .rightDetailsBlock .browseOption.notSelected.myfiles:hover, .rightSectionHolder .rightDetailsBlock .browseOption.notSelected.myfavorites:hover, .rightSectionHolder .browseOption.notSelected.mysubscriptions:hover, .rightSectionHolder .browseOption.notSelected.myplayedfiles:hover {
+  width: 283px !important;
+  background-color: #0078d4 !important;
+  border-radius: 10px !important;
+  padding-left: 10px !important;
+  left: -10px !important;
 }
 
 .browseOption.notSelected:hover a, .browseOption.notSelected.gpfocus a {
@@ -1942,6 +1994,78 @@ input.discussionSearchText {
 .review_award, .workshopItemControls .general_btn {
   background-color: #2e2e2f !important;
   color: #ffffff !important;
+}
+
+.browseOption.notSelected:hover, .browseOption.notSelected.gpfocus {
+  background-color: #0078d4 !important;
+  border-radius: 10px !important;
+}
+
+div.sortselect #sortselect_activesort, #ig_bottom div.dayselect #dayselect_activeday {
+  background-color: #1e1e1f !important;
+  border-radius: 10px !important;
+}
+
+.guide_home_category_selection:hover {
+  background-color: #0078d4 !important;
+  border-radius: 10px !important;
+}
+
+/* -------------------------COMMUNITY - MARKET------------------------- */
+.market_header_bg, #BG_top {
+  background: none !important;
+}
+
+.market_header_logo {
+  background-image: none !important;
+}
+
+.market_tab_well_tab_active > span, .market_tab_well_tab_contents:hover, .market_listing_row:hover {
+  background: #0078d4 !important;
+  border-radius: 10px !important;
+}
+
+.market_listing_table_message, .market_listing_table_message, .market_search_sidebar_contents, .market_tab_well_tabs, .market_listing_table_header, .market_listing_row, .market_listing_iteminfo {
+  background: #121212 !important;
+  border-radius: 10px !important;
+}
+
+#findItemsSearchBox {
+  background-color: #1e1e1f !important;
+  border-radius: 20px !important;
+  border: 1px solid #1e1e1f !important;
+}
+#findItemsSearchBox:hover {
+  border: 1px solid #1e1e1f !important;
+}
+
+.market_search_advanced_button, .game_button > span {
+  background: #1e1e1f !important;
+  border-radius: 10px !important;
+}
+
+.market_search_advanced_button:hover, .game_button:hover > span, .game_button .game_button_preload {
+  background: #0078d4 !important;
+  border-radius: 10px !important;
+  color: #ffffff !important;
+}
+
+.btn_small_thin > span, input.btn_small_thin {
+  background-color: #2e2e2f !important;
+  color: #ffffff !important;
+}
+
+.btnv6_grey_black:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover {
+  background: none !important;
+}
+
+.btnv6_grey_black:hover {
+  background: #0078d4 !important;
+  border-radius: 10px !important;
+}
+
+.market_commodity_orders_block {
+  border-radius: 10px !important;
 }
 
 /* -------------------------COMMUNITY - GAME------------------------- */
@@ -2025,8 +2149,14 @@ a.recent_game_discussion:hover, .discussions_forum_row:hover {
   background: #121212 !important;
 }
 
-.workshopItemCollection:hover, .itemContents:hover {
+.workshopItemCollection:hover, .itemContents:hover, .workshop_item_row:hover {
   background: #0078d4 !important;
+  color: #ffffff !important;
+}
+
+.browseOption.notSelected.yourfavorites, .browseOption.notSelected.favoritedbyfriends, .browseOption.notSelected.createdbyfriends {
+  background: #0078d4 !important;
+  border-radius: 10px !important;
 }
 
 .primary_panel_border {
@@ -2042,13 +2172,37 @@ a.recent_game_discussion:hover, .discussions_forum_row:hover {
   background-repeat: none !important;
 }
 
-.browse_option a:hover {
+.browse_option a:hover, .filterOption:hover, .filterOption.checked {
   background: #0078d4 !important;
+  border-radius: 10px !important;
 }
 
 .workshop_browse_search {
   border-radius: 20px !important;
   background-color: #121212 !important;
+}
+
+.review_award:hover, .general_btn:hover {
+  background-color: #0078d4 !important;
+}
+
+.workshop_item_header, .workshop_item_header {
+  background: #121212 !important;
+  border-radius: 10px !important;
+}
+
+.tag_label:hover {
+  color: #ffffff !important;
+}
+
+.workshop_browse_menu_area {
+  background: #121212 !important;
+}
+
+.workshop_browse_tab a:hover, .workshop_browse_tab.active a:hover {
+  color: #ffffff !important;
+  background-color: #0078d4 !important;
+  border-radius: 10px !important;
 }
 
 /* ACTIVITY PAGE PROFILES */
@@ -2118,6 +2272,30 @@ img.dynamiclink_preview {
   background-color: #0078d4 !important;
   border-radius: 10px !important;
   left: -10px !important;
+}
+
+.games_list_tab, a.games_list_tab {
+  background-color: none !important;
+}
+
+#tabcontent_inventory, .games_list_tabs_ctn {
+  background: #121212 !important;
+  border-radius: 10px !important;
+}
+
+.view_inventory_page {
+  background: none !important;
+}
+
+.item_desc_content {
+  background: #1e1e1f !important;
+  border-radius: 10px !important;
+}
+
+.item_market_actions {
+  background: #1e1e1f !important;
+  border-radius: 10px !important;
+  margin-top: 5px !important;
 }
 
 /*# sourceMappingURL=webkit.css.map */

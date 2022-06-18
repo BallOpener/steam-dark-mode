@@ -48,8 +48,14 @@
     background: styles.$bgcolor !important;
 }
 
-.workshopItemCollection:hover, .itemContents:hover{
-    background: styles.$txtcolor !important
+.workshopItemCollection:hover, .itemContents:hover, .workshop_item_row:hover{
+    background: styles.$txtcolor !important;
+    color: styles.$text !important;
+}
+
+.browseOption.notSelected.yourfavorites, .browseOption.notSelected.favoritedbyfriends, .browseOption.notSelected.createdbyfriends{
+    background: styles.$txtcolor !important;
+    border-radius: 10px !important;
 }
 
 .primary_panel_border{
@@ -65,11 +71,35 @@
     background-repeat: none !important;
 }
 
-.browse_option a:hover{
-    background: styles.$txtcolor !important
+.browse_option a:hover, .filterOption:hover, .filterOption.checked{
+    background: styles.$txtcolor !important;
+    border-radius: 10px !important;
 }
 
 .workshop_browse_search{
     border-radius: 20px !important;
     background-color: styles.$bgcolor !important;
+}
+
+.review_award:hover, .general_btn:hover{
+    background-color: styles.$txtcolor !important
+}
+
+.workshop_item_header, .workshop_item_header {
+    background: styles.$bgcolor !important;
+    border-radius: 10px !important;
+}
+
+.tag_label:hover{
+    color: styles.$text !important;
+}
+
+.workshop_browse_menu_area{
+    background: styles.$bgcolor !important;
+}
+
+.workshop_browse_tab a:hover, .workshop_browse_tab.active a:hover{
+    color: styles.$text !important;
+    background-color: styles.$scrollbar !important;
+    border-radius: 10px !important;
 }

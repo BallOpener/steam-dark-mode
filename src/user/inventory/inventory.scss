@@ -6,3 +6,28 @@
     border-radius: 10px !important;
     left: -10px !important;
 }
+
+.games_list_tab, a.games_list_tab{
+    background-color: none !important;
+}
+
+#tabcontent_inventory, .games_list_tabs_ctn{
+    background: styles.$bgcolor !important;
+    border-radius: 10px !important;
+}
+
+.view_inventory_page{
+    background: none !important;
+}
+
+.item_desc_content{
+    background: #1e1e1f !important;
+    border-radius: 10px !important;
+}
+
+.item_market_actions{
+    background: #1e1e1f !important;
+    border-radius: 10px !important;
+    margin-top: 5px !important;
+}
+

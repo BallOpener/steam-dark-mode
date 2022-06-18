@@ -1,6 +1,6 @@
 @use './styles';
 
-/* -------------------------HOME COMMUINITY------------------------- */
+/* -------------------------COMMUINITY - HOME------------------------- */
 
 .community_home_app_shortcuts.responsive_hidden, .community_home_search_box{
     /* Search Box*/
@@ -73,16 +73,40 @@ input.community_home_search_app_input, input.community_home_search_players_input
     color: styles.$text !important;
 }
 
-.apphub_Card.interactable:hover .apphub_CardContentAuthorBlock, .apphub_Card.interactable:hover .apphub_CardContentType, .apphub_Card.interactable:hover .apphub_CardContentDiscussionType{
-    border-radius: 10px !important;
-}
-
 .apphub_sectionTabsHR, .apphub_sectionTabsHR.responsive_hidden, .apphub_HubDivider{
     background-color: none !important;
     height: 0 !important;
 }
 
-/* -------------------------Community - Dicussions------------------------- */
+.apphub_Card.interactable:hover .apphub_CardContentAuthorBlock, .apphub_Card.interactable:hover .apphub_CardContentDiscussionType, .apphub_Card.interactable:hover .apphub_CardContentType{
+    background-color: styles.$scrollbar !important;
+    border-radius: 10px !important;
+    
+}
+
+.apphub_CardContentAppName, .apphub_CardContentAppName a, .apphub_Card.pinned .apphub_CardContentAuthorName, .apphub_CardContentAuthorName, .apphub_Card.interactable:hover .apphub_CardContentAuthorName.offline a, .apphub_CardContentAuthorName a, .apphub_Card.interactable:hover .apphub_CardContentMoreLink, .apphub_Card.interactable:hover .apphub_CardContentMoreLink a, .apphub_CardContentDiscussionType, .apphub_Card.interactable:hover .apphub_CardCommentCount.alignNews {
+    color: styles.$text !important;
+}
+
+.apphub_CardContentType{
+    background-image: none !important;
+}
+
+div.filterselect_options div.option:hover{
+    background-color: styles.$scrollbar !important;
+    border-radius: 10px !important;
+}
+
+.btnv6_blue_hoverfade{
+    padding: 0 !important;
+    border-radius: 10px !important;
+}
+
+.btn_small_thin > span, input.btn_small_thin{
+    border-radius: 10px !important;
+}
+
+/* -------------------------COMMUNITY - DISCUSIONS------------------------- */
 
 .forum_topic{
     background-color: styles.$bgcolor !important;
@@ -142,6 +166,15 @@ input.community_home_search_app_input, input.community_home_search_players_input
 }
 
 
+.rightbox_list_option_content:hover{
+    background-color: styles.$scrollbar !important;
+    border-radius: 10px !important;
+    width: 285px !important;
+    left: -15px !important;
+    position: relative !important;
+    padding-left: 10px !important;
+}
+
 .forumtopic_comments .commentthread_comment, .forum_op, .apphub_SectionFilter{
     background-color: styles.$bgcolor !important;
     border-radius: 10px !important;
@@ -171,7 +204,16 @@ input.discussionSearchText{
     top: 5px !important;
 }
 
-/* -------------------------Community - Guides------------------------- */
+.community_tooltip{
+    background: styles.$bgcolor !important;
+    color: styles.$text !important;
+}
+
+a.whiteLink:hover, .whiteLink:hover, a.linkStandard:hover, a.linkTitle:hover, a.underlinedLink:hover, span.underlinedLink:hover{
+    color: styles.$text !important;
+}
+
+/* -------------------------COMMUNITY - GUIDES------------------------- */
 .searchTextContainer{
     background-image:none!important;
 }
@@ -215,23 +257,41 @@ input.discussionSearchText{
 }
 
 #ig_bottom .sidebar .panel, #ig_bottom .sidebar .detailPanel{
-    margin-top: 20px !important;
+    /**margin-top: 20px !important;**/
     background-color: styles.$bgcolor !important;
     border-radius: 10px !important;
 }
 
+.apphub_ContentGuides .workshopItemCollection{
+    color: styles.$text !important;
+}
+
+#GuideCategoryTags.panel.guide_category_tags{
+    margin-top: 20px !important;
+}
 
 .browseOptionImage{
 /* Changes colour of buttons on left sidebar in guides*/
     background-color: styles.$scrollbar !important;
     border-radius: 10px !important;
-    width: 294px !important;
+    width: 292px !important;
     left: -10px !important;
+    height: 37px !important;
 }
 
-.browseOption.notSelected:hover, .browseOption.notSelected.gpfocus{
+.panel .rightDetailsBlock .browseOption.notSelected.myfavorites:hover{
+    width: 283px !important;
     background-color: styles.$scrollbar !important;
     border-radius: 10px !important;
+    padding-left: 10px !important;
+}
+
+.rightSectionHolder .rightDetailsBlock .browseOption.notSelected.myfiles:hover, .rightSectionHolder .rightDetailsBlock .browseOption.notSelected.myfavorites:hover, .rightSectionHolder .browseOption.notSelected.mysubscriptions:hover, .rightSectionHolder .browseOption.notSelected.myplayedfiles:hover{
+    width: 283px !important;
+    background-color: styles.$scrollbar !important;
+    border-radius: 10px !important;
+    padding-left: 10px !important;
+    left: -10px !important;
 }
 
 .browseOption.notSelected:hover a, .browseOption.notSelected.gpfocus a{
@@ -275,3 +335,76 @@ input.discussionSearchText{
     color: styles.$text !important;
 }
 
+.browseOption.notSelected:hover, .browseOption.notSelected.gpfocus{
+    background-color: styles.$scrollbar !important;
+    border-radius: 10px !important;
+}
+
+div.sortselect #sortselect_activesort, #ig_bottom div.dayselect #dayselect_activeday{
+    background-color: #1e1e1f !important;
+    border-radius: 10px !important;
+}
+
+.guide_home_category_selection:hover{
+    background-color: styles.$scrollbar !important;
+    border-radius: 10px !important;
+}
+
+/* -------------------------COMMUNITY - MARKET------------------------- */
+
+.market_header_bg, #BG_top{
+    background: none !important;
+}
+
+.market_header_logo{
+    background-image: none !important;
+}
+
+.market_tab_well_tab_active > span, .market_tab_well_tab_contents:hover, .market_listing_row:hover{
+    background: styles.$scrollbar !important;
+    border-radius: 10px !important;
+}
+
+.market_listing_table_message, .market_listing_table_message, .market_search_sidebar_contents, .market_tab_well_tabs, .market_listing_table_header, .market_listing_row, .market_listing_iteminfo {
+    background: styles.$bgcolor !important;
+    border-radius: 10px !important;
+}
+
+#findItemsSearchBox{
+    background-color: #1e1e1f !important;
+    border-radius: 20px !important;
+    border: 1px solid #1e1e1f !important;
+    
+    &:hover {
+      border: 1px solid #1e1e1f !important;
+    }
+}
+
+.market_search_advanced_button, .game_button > span {
+    background:#1e1e1f !important;
+    border-radius: 10px !important;
+}
+
+.market_search_advanced_button:hover, .game_button:hover > span, .game_button .game_button_preload{
+    background: styles.$scrollbar !important;
+    border-radius: 10px !important;
+    color: styles.$text !important;
+}
+
+.btn_small_thin > span, input.btn_small_thin{
+    background-color: styles.$grey !important;
+    color: styles.$text !important;
+}
+
+.btnv6_grey_black:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover{
+    background: none !important;
+}
+
+.btnv6_grey_black:hover{
+    background: styles.$scrollbar !important;
+    border-radius: 10px !important;
+}
+
+.market_commodity_orders_block{
+    border-radius: 10px !important;
+}
