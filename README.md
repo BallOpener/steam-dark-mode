@@ -2,13 +2,14 @@
 
 ### This version is based on Shiina's beta version of the Dark Mode (or rather an extension of it).
 
-Currently in the works. **Currently version 0.2**.
+Currently in the works. **Currently version 0.3**.
 
 ### To Do
 - Community Hub
 - Redo Profile
 - Profile sections including activities
 - Fix performance issue (if any)
+- Fix minor colourisation and standardisation issues (e.g. forms, item boxes, font colour on highlight, and dropdown boxes)
 
 ### Download
 Go to [releases](https://github.com/BallOpener/steam-dark-mode/releases/).
