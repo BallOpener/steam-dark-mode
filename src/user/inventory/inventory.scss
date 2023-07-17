@@ -1,5 +1,6 @@
 @use './styles';
 
+/* -------------------------INVENTORY------------------------- */
 .right_controls_large_block_active_bg{
     background: none !important;
     background-color: styles.$scrollbar !important;
@@ -31,3 +32,12 @@
     margin-top: 5px !important;
 }
 
+.games_list_tab, a.games_list_tab{
+    background-color: transparent !important;
+  }
+  
+  .profile_small_header_texture {
+    max-width: 930px;
+    background: #121212 !important;
+    border-radius: 10px;
+  }

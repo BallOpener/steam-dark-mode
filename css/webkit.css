@@ -1,11 +1,12 @@
 /* -------------------------STORE FEATURED------------------------- */
-/* Scrollbar */
+/*
+/* Scrollbar -uncomment to add it back
 ::-webkit-scrollbar-thumb {
   background-clip: padding-box !important;
   -webkit-box-shadow: none !important;
-  background-color: #0078d4 !important;
+  background-color: styles.$scrollbar !important;
   border: 5px solid var(--darkgrey) !important;
-  border-radius: 10px !important;
+  border-radius: styles.$border1 !important;
   width: 25px !important;
 }
 
@@ -24,19 +25,17 @@
   display: none !important;
   border: 5px solid transparent !important;
 }
-
+*/
 /* Resolution Fix */
 @media only screen and (min-width: 3000px) {
   .responsive_page_content {
     -webkit-transform: scale(2) !important;
     -webkit-transform-origin: 50% 0 0 !important;
   }
-
   .modal_frame {
     width: 66% !important;
     height: 80% !important;
   }
-
   #footer {
     display: none !important;
   }
@@ -46,12 +45,10 @@
     -webkit-transform: scale(1) !important;
     -webkit-transform-origin: 50% 0 0 !important;
   }
-
   .modal_frame {
     width: 66% !important;
     height: 80% !important;
   }
-
   #footer {
     display: none !important;
   }
@@ -61,12 +58,10 @@
     -webkit-transform: scale(2) !important;
     -webkit-transform-origin: 50% 0 0 !important;
   }
-
   .modal_frame {
     width: 66% !important;
     height: 80% !important;
   }
-
   #footer {
     display: none !important;
   }
@@ -612,6 +607,11 @@ table, td, th {
   background: none !important;
 }
 
+/*Categories on front page*/
+.content_hub_capsule_ctn .gradient, .content_hub_carousel_ctn .content_hub_capsule_ctn img {
+  border-radius: 10px !important;
+}
+
 /* -------------------------WISHLIST------------------------- */
 .page_content_ctn {
   /* Content background */
@@ -688,43 +688,36 @@ span#label_sort {
   color: #0078d4 !important;
 }
 
-.page_header_ctn {
-  /* remove the blue tint behind the Queue image */
+.page_header_ctn { /* remove the blue tint behind the Queue image */
   background: none !important;
 }
 
-.discovery_queue_overlay_bg {
-  /* repositioned and re-themed the Queue button */
+.discovery_queue_overlay_bg { /* repositioned and re-themed the Queue button */
   width: 425px !important;
   border-radius: 50px !important;
-  background: #15151590 !important;
+  background: rgba(21, 21, 21, 0.5647058824) !important;
   margin-right: 75px !important;
   backdrop-filter: blur(20px) !important;
 }
 
-.discovery_queue_customize_ctn {
-  /* remove the small customize queue button background */
+.discovery_queue_customize_ctn { /* remove the small customize queue button background */
   background: transparent !important;
 }
 
-.explore_rightcol_box {
-  /* re-themed the right column boxes */
+.explore_rightcol_box { /* re-themed the right column boxes */
   background-color: #151515 !important;
   border-radius: 20px !important;
 }
 
-body.v6 #footer {
-  /* changed footer background */
+body.v6 #footer { /* changed footer background */
   background: #1e1e1f !important;
 }
 
-.faq_question {
-  /* changed FAQ text color */
+.faq_question { /* changed FAQ text color */
   color: #0078d4 !important;
 }
 
-.discovery_queue_overlay_message {
-  /*Changed overlay message*/
+.discovery_queue_overlay_message { /*Changed overlay message*/
   color: #0078d4 !important;
 }
 
@@ -1017,8 +1010,7 @@ div.responsive_apppage_reviewblock.block:nth-of-type(14) {
   display: none !important;
 }
 
-/* -------------------------Developer_page------------------------- */
-/* New Thread background */
+/* -------------------------Developer_page------------------------- */ /* New Thread background */
 .commentthread_entry {
   background: #121212 !important;
   border-radius: 10px !important;
@@ -1079,7 +1071,7 @@ div.responsive_apppage_reviewblock.block:nth-of-type(14) {
 .commentthread_textarea::-moz-input-placeholder {
   font-style: normal !important;
   font-weight: bold !important;
-  color: #ffffff99 !important;
+  color: rgba(255, 255, 255, 0.6) !important;
 }
 
 /* Thread comment placeholder */
@@ -1087,7 +1079,7 @@ input.gray_bevel::-webkit-input-placeholder, textarea.gray_bevel::-webkit-input-
 input.gray_bevel:-moz-placeholder, textarea.gray_bevel:-moz-placeholder, .gray_bevel textarea:-moz-placeholder, .gray_bevel input:-moz-placeholder {
   font-style: normal !important;
   font-weight: bold !important;
-  color: #ffffff99 !important;
+  color: rgba(255, 255, 255, 0.6) !important;
 }
 
 /* Right column background */
@@ -1168,11 +1160,18 @@ a.games_list_tab:hover, .games_list_tab.active {
   border-radius: 10px !important;
 }
 
+.btn_grey_grey:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover {
+  text-decoration: none !important;
+  color: #ffffff !important;
+  background: #0078d4 !important;
+  border-radius: 10px !important;
+}
+
 /* -------------------------USER PROFILE------------------------- */
 /* Header */
 .profile_header_bg_texture {
   min-height: 226px !important;
-  background-color: #15151580 !important;
+  background-color: rgba(21, 21, 21, 0.5019607843) !important;
   backdrop-filter: blur(20px) !important;
   border-radius: 10px !important;
 }
@@ -1250,7 +1249,7 @@ a.games_list_tab:hover, .games_list_tab.active {
 /* Left Column */
 .profile_content.has_profile_background {
   backdrop-filter: blur(20px) !important;
-  background: #15151580 !important;
+  background: rgba(21, 21, 21, 0.5019607843) !important;
   border-radius: 10px !important;
 }
 
@@ -1427,14 +1426,14 @@ a.games_list_tab:hover, .games_list_tab.active {
 .profile_comment_area .commentthread_textarea::-webkit-input-placeholder {
   font-style: normal !important;
   font-weight: bold !important;
-  color: #ffffff99 !important;
+  color: rgba(255, 255, 255, 0.6) !important;
 }
 
 /* User Comments Hover */
 .detailBox .commentthread_comment:not(.hidden_post):hover,
 .group_comments .commentthread_comment:not(.hidden_post):hover,
 .profile_comment_area .commentthread_comment:not(.hidden_post):hover {
-  background: #12121280 !important;
+  background: rgba(18, 18, 18, 0.5019607843) !important;
   border-radius: 10px !important;
 }
 
@@ -2271,6 +2270,7 @@ img.dynamiclink_preview {
   border-radius: 10px !important;
 }
 
+/* -------------------------INVENTORY------------------------- */
 .right_controls_large_block_active_bg {
   background: none !important;
   background-color: #0078d4 !important;
@@ -2300,6 +2300,38 @@ img.dynamiclink_preview {
   background: #1e1e1f !important;
   border-radius: 10px !important;
   margin-top: 5px !important;
+}
+
+.games_list_tab, a.games_list_tab {
+  background-color: transparent !important;
+}
+
+.profile_small_header_texture {
+  max-width: 930px;
+  background: #121212 !important;
+  border-radius: 10px;
+}
+
+/* -------------------------BADGES------------------------- */
+.btn_small_thin > span, input.btn_small_thin {
+  background-color: none !important;
+}
+
+.profile_xp_block_remaining_bar_progress {
+  background-image: url();
+  background: #0078d4 !important;
+}
+
+.badge_row, .badge_row_inner {
+  background: #121212 !important;
+  border-radius: 20px !important;
+  background-color: #121212 !important;
+}
+
+.badge_row:hover {
+  background: #0078d4 !important;
+  border-radius: 20px !important;
+  background-color: #0078d4 !important;
 }
 
 /*# sourceMappingURL=webkit.css.map */

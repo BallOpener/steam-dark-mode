@@ -1,7 +1,8 @@
 @use './styles';
 
 /* -------------------------STORE FEATURED------------------------- */
-/* Scrollbar */
+/*
+/* Scrollbar -uncomment to add it back
 ::-webkit-scrollbar-thumb {
   background-clip: padding-box !important;
   -webkit-box-shadow: none !important;
@@ -26,7 +27,7 @@
   display: none !important;
   border: 5px solid transparent !important;
 }
-
+*/
 
 /* Resolution Fix */
 @media only screen and (min-width: 3000px) {
@@ -597,3 +598,9 @@ table,td,th {
 .home_cluster_ctn{
   background: none !important;
 }
+
+/*Categories on front page*/
+.content_hub_capsule_ctn .gradient, .content_hub_carousel_ctn .content_hub_capsule_ctn img{
+  border-radius: 10px !important;
+}
+

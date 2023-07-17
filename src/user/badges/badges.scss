@@ -1,0 +1,23 @@
+@use './styles';
+
+/* -------------------------BADGES------------------------- */
+.btn_small_thin > span, input.btn_small_thin{
+    background-color: none  !important;
+}
+
+.profile_xp_block_remaining_bar_progress{
+    background-image: url();
+    background: styles.$customcolor !important;
+}
+
+.badge_row, .badge_row_inner {
+    background: styles.$bgcolor !important;
+    border-radius: 20px !important;
+    background-color: styles.$bgcolor !important;
+}
+
+.badge_row:hover {
+    background: styles.$customcolor !important;
+    border-radius: 20px !important;
+    background-color: styles.$customcolor !important;
+}

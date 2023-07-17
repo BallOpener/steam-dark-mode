@@ -151,3 +151,11 @@ a.games_list_tab:hover, .games_list_tab.active{
     border-radius: 10px !important;
 }
 
+.btn_grey_grey:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover{
+    text-decoration: none !important;
+	color: styles.$text !important;
+	background: styles.$customcolor !important;	
+    border-radius: 10px !important;
+}
+
+
