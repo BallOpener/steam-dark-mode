@@ -1708,13 +1708,13 @@ input.community_home_search_app_input, input.community_home_search_players_input
   border-radius: 10px !important;
 }
 
-.community_home_search_apps, .community_home_search_players {
+.community_home_search_apps, .community_home_search_players, .appHubSearchTextInput {
   /* Searchbox Hover */
   background-color: #1e1e1f !important;
   border-radius: 20px !important;
   border: 1px solid #1e1e1f !important;
 }
-.community_home_search_apps:hover, .community_home_search_players:hover {
+.community_home_search_apps:hover, .community_home_search_players:hover, .appHubSearchTextInput:hover {
   border: 1px solid #1e1e1f !important;
 }
 
@@ -2104,7 +2104,7 @@ a.recent_game_discussion:hover, .discussions_forum_row:hover {
   color: none !important;
 }
 
-/* -------------------------HOME COMMUINITY------------------------- */
+/* -------------------------WORKSHOP------------------------- */
 .sectionTab.active > span, .sectionTab:hover, .sectionTab.active {
   background: #0078d4 !important;
 }
@@ -2157,11 +2157,10 @@ a.recent_game_discussion:hover, .discussions_forum_row:hover {
   color: #ffffff !important;
 }
 
-.browseOption.notSelected.yourfavorites, .browseOption.notSelected.favoritedbyfriends, .browseOption.notSelected.createdbyfriends {
-  background: #0078d4 !important;
-  border-radius: 10px !important;
-}
-
+/*browseOption.notSelected.yourfavorites, .browseOption.notSelected.favoritedbyfriends, .browseOption.notSelected.createdbyfriends{
+    background: styles.$txtcolor !important;
+    border-radius: 10px !important;
+}*/
 .primary_panel_border {
   background: none !important;
 }
@@ -2181,8 +2180,12 @@ a.recent_game_discussion:hover, .discussions_forum_row:hover {
 }
 
 .workshop_browse_search {
+  background-color: #1e1e1f !important;
   border-radius: 20px !important;
-  background-color: #121212 !important;
+  border: 1px solid #1e1e1f !important;
+}
+.workshop_browse_search:hover {
+  border: 1px solid #1e1e1f !important;
 }
 
 .review_award:hover, .general_btn:hover {
@@ -2208,30 +2211,27 @@ a.recent_game_discussion:hover, .discussions_forum_row:hover {
   border-radius: 10px !important;
 }
 
-/* ACTIVITY PAGE PROFILES */
-/* avatar status */
-.playerAvatar, .friend_block_holder .friend_block_avatar, .friend_activity .friend_block_avatar {
-  border-radius: 50% !important;
+.navContent {
+  background: #121212 !important;
+  border-radius: 10px !important;
+  color: #ffffff !important;
 }
 
-/* avatar image */
-.playerAvatar img, .friend_block_holder .friend_block_avatar img, .friend_activity .friend_block_avatar img {
-  border-radius: 50% !important;
+.apphub_HeaderTop.workshop {
+  background-image: url();
 }
 
-/* avatar small status */
-.blotter_playerAvatarSmall {
-  border-radius: 50% !important;
+.btnv6_blue_blue_innerfade {
+  background: none !important;
 }
 
-/* avatar small image */
-.blotter_playerAvatarSmall img {
-  border-radius: 50% !important;
+.btn_small_thin > span:hover, input.btn_small_thin:hover {
+  background-color: #0078d4 !important;
+  border-radius: 10px !important;
 }
 
-/* removes new avatar picture frame */
-.playerAvatar .profile_avatar_frame > img {
-  display: none !important;
+.apphub_ContentGuides .workshopItemCollection .workshopItemShortDesc, .apphub_ContentGuides .workshopItemCollection:hover .workshopItemShortDesc {
+  color: #ffffff !important;
 }
 
 /* ACTIVITY PAGE IMAGES */

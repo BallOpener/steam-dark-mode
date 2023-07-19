@@ -1,6 +1,6 @@
 @use './styles';
 
-/* -------------------------HOME COMMUINITY------------------------- */
+/* -------------------------WORKSHOP------------------------- */
 
 .sectionTab.active > span, .sectionTab:hover, .sectionTab.active{
     background: styles.$txtcolor !important
@@ -53,10 +53,10 @@
     color: styles.$text !important;
 }
 
-.browseOption.notSelected.yourfavorites, .browseOption.notSelected.favoritedbyfriends, .browseOption.notSelected.createdbyfriends{
+/*browseOption.notSelected.yourfavorites, .browseOption.notSelected.favoritedbyfriends, .browseOption.notSelected.createdbyfriends{
     background: styles.$txtcolor !important;
     border-radius: 10px !important;
-}
+}*/
 
 .primary_panel_border{
     background: none !important;
@@ -77,8 +77,13 @@
 }
 
 .workshop_browse_search{
+    background-color: #1e1e1f !important;
     border-radius: 20px !important;
-    background-color: styles.$bgcolor !important;
+    border: 1px solid #1e1e1f !important;
+    
+    &:hover {
+      border: 1px solid #1e1e1f !important;
+    }
 }
 
 .review_award:hover, .general_btn:hover{
@@ -102,4 +107,27 @@
     color: styles.$text !important;
     background-color: styles.$scrollbar !important;
     border-radius: 10px !important;
+}
+
+.navContent{
+    background: styles.$bgcolor !important;
+    border-radius: 10px !important;
+    color: styles.$text !important;
+}
+
+.apphub_HeaderTop.workshop{
+    background-image: url();
+}
+
+.btnv6_blue_blue_innerfade{
+    background: none !important;
+}
+
+.btn_small_thin > span:hover, input.btn_small_thin:hover{
+    background-color: styles.$scrollbar !important;
+    border-radius: 10px !important
+}
+
+.apphub_ContentGuides .workshopItemCollection .workshopItemShortDesc, .apphub_ContentGuides .workshopItemCollection:hover .workshopItemShortDesc{
+    color: styles.$text !important;
 }

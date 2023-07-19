@@ -2,6 +2,8 @@
 
 /* -------------------------COMMUINITY - HOME------------------------- */
 
+
+
 .community_home_app_shortcuts.responsive_hidden, .community_home_search_box{
     /* Search Box*/
     background: styles.$bgcolor !important;
@@ -35,7 +37,7 @@ input.community_home_search_app_input, input.community_home_search_players_input
     border-radius: 10px !important;
 }
 
-.community_home_search_apps, .community_home_search_players{
+.community_home_search_apps, .community_home_search_players, .appHubSearchTextInput{
     /* Searchbox Hover */
     background-color: #1e1e1f !important;
     border-radius: 20px !important;
@@ -408,3 +410,4 @@ div.sortselect #sortselect_activesort, #ig_bottom div.dayselect #dayselect_activ
 .market_commodity_orders_block{
     border-radius: 10px !important;
 }
+
