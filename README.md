@@ -2,7 +2,7 @@
 
 ### This version is based on Shiina's beta version of the Dark Mode (or rather an extension of it).
 
-Currently in the works. **Currently version 0.3**.
+Currently in the works. **Currently version 0.5**.
 
 ### To Do
 - Community Hub
